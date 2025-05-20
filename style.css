@@ -1,0 +1,148 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 150px;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .headerlinks a {
+    color: #E5E7EB;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 14px;
+    text-transform: lowercase;
+  }
+  
+  .intro {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 150px;
+    gap: 50px;
+  }
+  
+  .fontlarge {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  
+  .intro-text p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 20px;
+  }
+  
+  .intro button {
+    padding: 10px 24px;
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .intro img {
+    width: 500px;
+    height: 250px;
+    object-fit: cover;
+    background-color: #6B7280;
+    border-radius: 8px;
+  }
+  
+  .boxes {
+    text-align: center;
+    padding: 60px 150px;
+    background-color: white;
+    color: #1F2937;
+  }
+  
+  .image-row {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 30px;
+  }
+  
+  .info-card {
+    max-width: 150px;
+  }
+  
+  .info-card img {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 8px;
+  }
+  
+  .info-card p {
+    font-size: 14px;
+    color: #4B5563;
+    margin-top: 8px;
+  }
+  
+  .quote {
+    background-color: #E5E7EB;
+    padding: 100px 200px;
+    font-style: italic;
+    font-size: 24px;
+    color: #1F2937;
+  }
+  
+  .quote .author {
+    display: block;
+    text-align: right;
+    font-style: normal;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  .final {
+    background-color: #3882F6;
+    margin: 100px 150px;
+    padding: 40px 60px;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .final p {
+    font-size: 14px;
+    color: #E5E7EB;
+    margin-top: 10px;
+  }
+  
+  .final button {
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 10px 25px;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
+    padding: 30px;
+    font-size: 14px;
+  }
+  
